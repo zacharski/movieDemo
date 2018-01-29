@@ -20,7 +20,7 @@ var pool = new Pool(config);
 app.set('port', (8080));
 // app.use(bodyParser.json({ type: 'application/json' }));
 // app.use(bodyParser.urlencoded({ extended: true }));
-
+// cool comment
 
 app.get('/movies', async (req, res) => {
 	if (req.query.m) {
@@ -41,7 +41,7 @@ app.get('/movies', async (req, res) => {
 			//res.json({'response': 'movies'})})
 	}}});
 	 
-
+response.rowCount 
 
 
 app.get('/hello', async (req, res) => {

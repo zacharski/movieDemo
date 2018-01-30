@@ -41,7 +41,7 @@ app.get('/movies', async (req, res) => {
 			//res.json({'response': 'movies'})})
 	}}});
 	 
-response.rowCount 
+
 
 
 app.get('/hello', async (req, res) => {
